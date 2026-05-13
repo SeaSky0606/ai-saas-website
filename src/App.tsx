@@ -4,7 +4,7 @@ import { Home, Products, Solutions, Cases, Pricing, About, Blog, Contact } from 
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ai-saas-website">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
